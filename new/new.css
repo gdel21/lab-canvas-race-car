@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+  }
+  
+  body {
+    padding: 0;
+    text-align: center;
+    background: #2e999c;
+    overflow: hidden;
+  }
+  
+  canvas{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 400px;
+    height: 400px;
+    background-image: url('./images/roadbg_160.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  ​
+  .game-intro {
+    float: left;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    widows: 20%;
+  }
+  .game-intro div {
+    margin-bottom: 20px;
+  }
+  ​
+  .game-intro p {
+    font-size: 18px;
+    font-family: "Verdana";
+  }
+  ​
+  .logo-img {
+    width: 300px;
+    padding-bottom: 40px;
+  }
+  ​
+  .arrows-img {
+    width: 150px;
+    padding: 20px;
+  }
+  ​
+  body button {
+    font-size: 30px;
+    background-color: #870007;
+    color: #fff;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+    ​
+  .points {
+    padding-bottom: 50px;
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+  }
